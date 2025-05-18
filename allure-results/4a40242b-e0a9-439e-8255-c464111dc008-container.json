@@ -1,1 +1,0 @@
-{"uuid":"4a40242b-e0a9-439e-8255-c464111dc008","name":"TC02_Sign_UP.setupdriver","children":["10702401-9c60-4673-b412-680a688b497b"],"description":"","befores":[{"name":"setupdriver","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1747050227467,"stop":1747050236775}],"afters":[],"start":1747050227466,"stop":1747050236775}

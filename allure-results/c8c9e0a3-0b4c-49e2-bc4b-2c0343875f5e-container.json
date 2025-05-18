@@ -1,1 +1,0 @@
-{"uuid":"c8c9e0a3-0b4c-49e2-bc4b-2c0343875f5e","name":"TC02_Sign_UP.quit","children":["e1341512-847f-4b65-b47f-a315318860c9"],"description":"","befores":[],"afters":[{"name":"quit","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1747049752198,"stop":1747049752199}],"start":1747049752195,"stop":1747049752199}

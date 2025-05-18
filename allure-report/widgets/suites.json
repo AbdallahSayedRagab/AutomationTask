@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"8399274b4bb69ec8699907dd6ef7de4e","name":"Default Suite","statistic":{"failed":6,"broken":2,"skipped":0,"passed":6,"unknown":0,"total":14}},{"uid":"7808475ad5c579648b570e1478707cb4","name":"Smoke Suite","statistic":{"failed":4,"broken":4,"skipped":0,"passed":5,"unknown":0,"total":13}}]}

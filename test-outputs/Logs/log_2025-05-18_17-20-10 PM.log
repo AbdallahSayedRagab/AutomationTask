@@ -1,0 +1,6 @@
+[INFO] 18-05-2025 17:20:19 [main] [Lisenters.ITestResultListener.onTestStart(ITestResultListener.java:10)] - Test-Case:InvalidLogin is Started
+[INFO] 18-05-2025 17:20:19 [main] [Tests.TC01_LoginPage] - Start
+[INFO] 18-05-2025 17:20:21 [main] [Tests.TC01_LoginPage] - End
+[INFO] 18-05-2025 17:20:21 [main] [Lisenters.ITestResultListener.onTestSuccess(ITestResultListener.java:14)] - Test-Case:InvalidLogin is Successed
+[INFO] 18-05-2025 17:20:29 [main] [Lisenters.ITestResultListener.onTestStart(ITestResultListener.java:10)] - Test-Case:Logout is Started
+[INFO] 18-05-2025 17:20:42 [main] [Lisenters.IInvociedMethodListener.afterInvocation(IInvociedMethodListener.java:19)] - Test-Case:nullFailed

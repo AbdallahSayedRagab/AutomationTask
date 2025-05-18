@@ -51,7 +51,7 @@ public class Utilitiy {
     }
 
     public static void SCREENSHOT (WebDriver driver ,String ImageName) throws IOException {
-        String Path = "E:\\Automation course\\PAGE_OBJECT_MODEL\\src\\main\\resources\\";
+        String Path = "E:\\Automation course\\PAGE_OBJECT_MODEL\\src\\main\\java\\Shots\\";
         File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         File target = new File(Path + ImageName + ".png");
         FileUtils.copyFile(src,target);

@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.io.IOException;
+
 public class P06_ProductDetails {
     private WebDriver driver;
     public P06_ProductDetails (WebDriver driver){
@@ -25,8 +27,9 @@ public class P06_ProductDetails {
         Utilitiy.CLICKONELEMENTS(driver,Continue_Shopping_button);
         return this;
     }
-    public P06_ProductDetails AddToCart_Of_ProductDetails_Button(){
+    public P06_ProductDetails AddToCart_Of_ProductDetails_Button() throws IOException {
         Utilitiy.CLICKONELEMENTS(driver,AddToCart_Of_ProductDetails_Button);
+        Utilitiy.SCREENSHOT(driver,"Product_1_Data");
         return this;
     }
 
@@ -38,7 +41,7 @@ public class P06_ProductDetails {
         return this;
     }
 
-    public String  Product_1_Name(){
+    public String  Product_1_Name()  {
        return Utilitiy.GETTEXT(driver,Product_1_Name);
     }
     public String Product_1_Category(){

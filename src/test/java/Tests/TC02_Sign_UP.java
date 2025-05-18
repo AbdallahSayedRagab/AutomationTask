@@ -38,7 +38,7 @@ public class TC02_Sign_UP {
     public void Signup (){
         new P01_HomePage(driver).Signup_login_button();
         new P02_LoginPage(driver).name_signup("AbdallahSayed")
-                .Email_signup("Abdallah@coc.net").SignupButton();
+                .Email_signup(DataUtils.getJsonData("Data" , "SignUPMail")).SignupButton();
         new P03_SignUpPage(driver).password("Abdallah@123")
                 .firstname("Abdallah").lastname("Sayed")
                 .address("AinShams").country_list("Canada").state("aaa")
@@ -48,14 +48,14 @@ public class TC02_Sign_UP {
         new P04_AccountCreatedPage(driver).continue_button();
         P01_HomePage Logged_visability = new P01_HomePage(driver);
         Assert.assertEquals(Logged_visability.Logged_as_Button(),"Logged in as AbdallahSayed");
-        //new P01_HomePage(driver).Account_Delete_button();
-        //Assert.assertEquals(Logged_visability.Deleted_Account_messege(),"ACCOUNT DELETED!");
+        new P01_HomePage(driver).Account_Delete_button();
+        Assert.assertEquals(Logged_visability.Deleted_Account_messege(),"ACCOUNT DELETED!");
     }
     @Test
     public void Signup_To_Checkout (){
         new P01_HomePage(driver).Signup_login_button();
         new P02_LoginPage(driver).name_signup("AbdallahSayed")
-                .Email_signup("Abdbzlsaq@coc.net").SignupButton();
+                .Email_signup(DataUtils.getJsonData("Data" , "SignUPMail")).SignupButton();
         new P03_SignUpPage(driver).password("Abdallah@123")
                 .firstname("Abdallah").lastname("Sayed")
                 .address("AinShams").country_list("Canada").state("aaa")
@@ -86,7 +86,7 @@ public class TC02_Sign_UP {
                 .AddToCart_2_Button().View_Cart_Button().ProccedToCheckout_Button();
         new  P07_ViewCartPage(driver).RegisterOrLogin_Button();
         new P02_LoginPage(driver).name_signup("AbdallahSayed")
-                .Email_signup("Abqw3qbzqlsawq@coc.net").SignupButton();
+                .Email_signup(DataUtils.getJsonData("Data" , "SignUPMail")).SignupButton();
         new P03_SignUpPage(driver).password("Abdallah@123")
                 .firstname("Abdallah").lastname("Sayed")
                 .address("AinShams").country_list("Canada").state("aaa")

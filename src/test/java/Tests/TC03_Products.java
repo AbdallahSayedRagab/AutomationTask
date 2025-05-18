@@ -93,7 +93,7 @@ public class TC03_Products {
 
     }
     @Test
-    public void Checkout () {
+    public void Checkout () throws IOException{
         new P01_HomePage(driver).Signup_login_button();
         new P02_LoginPage(driver).Login_Email(DataUtils.getJsonData("Data","ValidLoginEmail"))
                 .Login_Password(DataUtils.getJsonData("Data","Password")).Login_button();
@@ -148,6 +148,6 @@ public class TC03_Products {
 
     @AfterMethod
     public void quit(){
-        driver.quit();
+//        driver.quit();
     }
 }

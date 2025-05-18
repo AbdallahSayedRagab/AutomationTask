@@ -1,1 +1,0 @@
-{"uuid":"b06ff8f9-289f-48f3-8386-b26a491b1a94","name":"TC03_Products.setupdriver","children":["f5006e8a-2fab-4f9e-a92a-e8c05a3c81e7"],"description":"","befores":[{"name":"setupdriver","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1746520251176,"stop":1746520259593}],"afters":[],"start":1746520251175,"stop":1746520259594}

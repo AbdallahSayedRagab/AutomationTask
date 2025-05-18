@@ -107,7 +107,7 @@ public class P05_ProductsPage {
     }
     public P05_ProductsPage Search_Submit () throws IOException {
         Utilitiy.CLICKONELEMENTS(driver,Search_Submit);
-        Utilitiy.SCREENSHOT(driver,"jjj");
+        Utilitiy.SCREENSHOT(driver,"ScreenShotOnFunction");
         return this;
     }
     public String All_Product_Title () {

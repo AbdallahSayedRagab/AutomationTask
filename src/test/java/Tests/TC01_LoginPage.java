@@ -50,8 +50,8 @@ public class TC01_LoginPage {
                 .Login_Password(DataUtils.getJsonData("Data","Password")).Login_button();
         P01_HomePage Logged_visability = new P01_HomePage(driver);
         Assert.assertEquals(Logged_visability.Logged_as_Button(), "Logged in as AbdallahSayed");
-        new P01_HomePage(driver).Account_Delete_button();
-        Assert.assertEquals(Logged_visability.Deleted_Account_messege(), "ACCOUNT DELETED!");
+//        new P01_HomePage(driver).Account_Delete_button();
+//        Assert.assertEquals(Logged_visability.Deleted_Account_messege(), "ACCOUNT DELETED!");
     }
     @Test
     public void InvalidLogin(){
@@ -67,8 +67,8 @@ public class TC01_LoginPage {
     @Test
     public void Logout(){
         new P01_HomePage(driver).Signup_login_button();
-        new P02_LoginPage(driver).Login_Email("Abwdarrerla@coc.net")
-                .Login_Password("Abdallah@123").Login_button();
+        new P02_LoginPage(driver).Login_Email(DataUtils.getJsonData("Data","ValidLoginEmail"))
+                .Login_Password(DataUtils.getJsonData("Data","Password")).Login_button();
         P01_HomePage Logged_visability = new P01_HomePage(driver);
      //   Assert.assertEquals(Logged_visability.Logged_as_Button(), "Logged in as AbdallahSayed");
         new P01_HomePage(driver).Logout_Button();

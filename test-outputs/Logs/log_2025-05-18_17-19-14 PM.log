@@ -1,0 +1,2 @@
+[INFO] 18-05-2025 17:19:22 [main] [Lisenters.ITestResultListener.onTestStart(ITestResultListener.java:10)] - Test-Case:Signup is Started
+[INFO] 18-05-2025 17:19:31 [main] [Lisenters.IInvociedMethodListener.afterInvocation(IInvociedMethodListener.java:19)] - Test-Case:nullFailed
