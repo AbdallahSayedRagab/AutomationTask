@@ -55,7 +55,7 @@ public class TC02_Sign_UP {
     public void Signup_To_Checkout (){
         new P01_HomePage(driver).Signup_login_button();
         new P02_LoginPage(driver).name_signup("AbdallahSayed")
-                .Email_signup("Abwdbzlsaq@coc.net").SignupButton();
+                .Email_signup("Abdbzlsaq@coc.net").SignupButton();
         new P03_SignUpPage(driver).password("Abdallah@123")
                 .firstname("Abdallah").lastname("Sayed")
                 .address("AinShams").country_list("Canada").state("aaa")
