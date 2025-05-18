@@ -1,0 +1,2 @@
+[INFO] 18-05-2025 12:56:19 [main] [Lisenters.ITestResultListener.onTestStart(ITestResultListener.java:10)] - Test-Case:nullStarted
+[INFO] 18-05-2025 12:56:23 [main] [Lisenters.IInvociedMethodListener.afterInvocation(IInvociedMethodListener.java:19)] - Test-Case:nullFailed

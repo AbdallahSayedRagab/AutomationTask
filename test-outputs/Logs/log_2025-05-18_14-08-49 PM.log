@@ -1,0 +1,8 @@
+[INFO] 18-05-2025 14:08:55 [main] [Lisenters.ITestResultListener.onTestStart(ITestResultListener.java:10)] - Test-Case:View_Products is Started
+[INFO] 18-05-2025 14:09:04 [main] [Tests.TC03_Products.View_Products(TC03_Products.java:43)] - The name of product is Blue Top
+[INFO] 18-05-2025 14:09:04 [main] [Tests.TC03_Products.View_Products(TC03_Products.java:45)] - The Category of product is Category: Women > Tops
+[INFO] 18-05-2025 14:09:04 [main] [Tests.TC03_Products.View_Products(TC03_Products.java:47)] - The Price of product is Rs. 500
+[INFO] 18-05-2025 14:09:04 [main] [Tests.TC03_Products.View_Products(TC03_Products.java:49)] - The Availability of product is Availability: In Stock
+[INFO] 18-05-2025 14:09:04 [main] [Tests.TC03_Products.View_Products(TC03_Products.java:51)] - The Condition of product is Condition: New
+[INFO] 18-05-2025 14:09:04 [main] [Tests.TC03_Products.View_Products(TC03_Products.java:53)] - The Brand of product is Brand: Polo
+[INFO] 18-05-2025 14:09:04 [main] [Lisenters.ITestResultListener.onTestSuccess(ITestResultListener.java:14)] - Test-Case:View_Products is Successed

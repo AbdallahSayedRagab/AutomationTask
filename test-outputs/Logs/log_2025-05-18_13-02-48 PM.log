@@ -1,0 +1,2 @@
+[INFO] 18-05-2025 13:02:57 [main] [Lisenters.ITestResultListener.onTestStart(ITestResultListener.java:10)] - Test-Case:nullStarted
+[INFO] 18-05-2025 13:03:02 [main] [Lisenters.ITestResultListener.onTestSuccess(ITestResultListener.java:14)] - Test-Case:nullSuccessed

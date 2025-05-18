@@ -1,0 +1,1 @@
+{"uuid":"bb329d70-5c5a-4358-b612-9834ecd562f2","name":"Tests.TC03_Products.quit","children":["b072e821-d8ba-416b-bdb3-2f039850bc5f"],"description":"","befores":[],"afters":[{"name":"quit","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1747568336341,"stop":1747568336672}],"start":1747568336341,"stop":1747568336672}

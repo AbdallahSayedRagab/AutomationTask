@@ -1,0 +1,8 @@
+[INFO] 18-05-2025 14:03:46 [main] [Lisenters.ITestResultListener.onTestStart(ITestResultListener.java:10)] - Test-Case:View_Products is Started
+[INFO] 18-05-2025 14:03:50 [main] [Tests.TC03_Products.View_Products(TC03_Products.java:43)] - Blue Top
+[INFO] 18-05-2025 14:03:50 [main] [Tests.TC03_Products.View_Products(TC03_Products.java:45)] - Category: Women > Tops
+[INFO] 18-05-2025 14:03:51 [main] [Tests.TC03_Products.View_Products(TC03_Products.java:47)] - Rs. 500
+[INFO] 18-05-2025 14:03:51 [main] [Tests.TC03_Products.View_Products(TC03_Products.java:49)] - Availability: In Stock
+[INFO] 18-05-2025 14:03:51 [main] [Tests.TC03_Products.View_Products(TC03_Products.java:51)] - Condition: New
+[INFO] 18-05-2025 14:03:51 [main] [Tests.TC03_Products.View_Products(TC03_Products.java:53)] - Brand: Polo
+[INFO] 18-05-2025 14:03:51 [main] [Lisenters.ITestResultListener.onTestSuccess(ITestResultListener.java:14)] - Test-Case:View_Products is Successed
