@@ -1,5 +1,6 @@
 package Pages;
 
+import Utilities.DataUtils;
 import Utilities.Utilitiy;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -31,32 +32,48 @@ public class P02_LoginPage {
         return Utilitiy.GETTEXT(driver,Login_To_your_account_messege);
     }
 
-
-    public P02_LoginPage Login_Email (String EMAIL){
+    public P02_LoginPage Login (){
+        String EMAIL =DataUtils.getJsonData("Data","ValidLoginEmail");
+        String password =DataUtils.getJsonData("Data","Password");
         Utilitiy.SENDKEYS(driver,Login_Email,EMAIL);
-        return this;
-    }
-    public P02_LoginPage Login_Password (String password){
         Utilitiy.SENDKEYS(driver,Login_Password,password);
-        return this;
-    }
-    public P02_LoginPage Login_button (){
         Utilitiy.CLICKONELEMENTS(driver,Login_button);
         return this;
     }
-    public P02_LoginPage name_signup (String NameSignup){
-        Utilitiy.SENDKEYS(driver,name_signup,NameSignup);
-        return this;
-    }
+//    public P02_LoginPage Login_Email (String EMAIL){
+//        Utilitiy.SENDKEYS(driver,Login_Email,EMAIL);
+//        return this;
+//    }
+//    public P02_LoginPage Login_Password (String password){
+//        Utilitiy.SENDKEYS(driver,Login_Password,password);
+//        return this;
+//    }
+//    public P02_LoginPage Login_button (){
+//        Utilitiy.CLICKONELEMENTS(driver,Login_button);
+//        return this;
+//    }
 
-    public P02_LoginPage Email_signup (String EMAIL){
+    public P03_SignUpPage Signup_Register (){
+        String NameSignup =DataUtils.getJsonData("Data" , "Name_Signup");
+        String EMAIL =   DataUtils.getJsonData("Data","SignUPMail");
+        Utilitiy.SENDKEYS(driver,name_signup,NameSignup);
         Utilitiy.SENDKEYS(driver,Email_signup,EMAIL);
-        return this;
-    }
-    public P02_LoginPage SignupButton (){
         Utilitiy.CLICKONELEMENTS(driver,SignupButton);
-        return this;
+        return new P03_SignUpPage(driver);
     }
+//    public P02_LoginPage name_signup (String NameSignup){
+//        Utilitiy.SENDKEYS(driver,name_signup,NameSignup);
+//        return this;
+//    }
+//
+//    public P02_LoginPage Email_signup (String EMAIL){
+//        Utilitiy.SENDKEYS(driver,Email_signup,EMAIL);
+//        return this;
+//    }
+//    public P02_LoginPage SignupButton (){
+//        Utilitiy.CLICKONELEMENTS(driver,SignupButton);
+//        return this;
+//    }
 
 
 //    public P02_HomePage clickLoginbutton (){

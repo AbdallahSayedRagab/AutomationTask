@@ -1,8 +1,11 @@
 package Pages;
 
 import Utilities.Utilitiy;
+import org.apache.logging.log4j.core.util.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
+
 
 public class P04_AccountCreatedPage {
         private WebDriver driver;
@@ -15,6 +18,7 @@ public class P04_AccountCreatedPage {
     public String accountCreated_messege(){
       return Utilitiy.GETTEXT(driver,account_created_messege);
     }
+
 
 
     public P01_HomePage continue_button(){

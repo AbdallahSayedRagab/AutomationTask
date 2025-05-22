@@ -36,13 +36,8 @@ public class TC02_Sign_UP {
 
     @Test
     public void Signup (){
-        new P01_HomePage(driver).Signup_login_button();
-        new P02_LoginPage(driver).name_signup("AbdallahSayed")
-                .Email_signup(DataUtils.getJsonData("Data" , "SignUPMail")).SignupButton();
-        new P03_SignUpPage(driver).password("Abdallah@123")
-                .firstname("Abdallah").lastname("Sayed")
-                .address("AinShams").country_list("Canada").state("aaa")
-                .city("Ca").zipcode("2421").mobile_number("01148200717").create_account_button();
+        new P01_HomePage(driver).Signup_login_button()
+                .Signup_Register().SignUp_Data();
         P04_AccountCreatedPage o = new P04_AccountCreatedPage(driver);
         Assert.assertEquals(o.accountCreated_messege(),"ACCOUNT CREATED!");
         new P04_AccountCreatedPage(driver).continue_button();
@@ -53,13 +48,9 @@ public class TC02_Sign_UP {
     }
     @Test
     public void Signup_To_Checkout (){
-        new P01_HomePage(driver).Signup_login_button();
-        new P02_LoginPage(driver).name_signup("AbdallahSayed")
-                .Email_signup(DataUtils.getJsonData("Data" , "SignUPMail")).SignupButton();
-        new P03_SignUpPage(driver).password("Abdallah@123")
-                .firstname("Abdallah").lastname("Sayed")
-                .address("AinShams").country_list("Canada").state("aaa")
-                .city("Ca").zipcode("2421").mobile_number("01148200717").create_account_button();
+        new P01_HomePage(driver).Signup_login_button()
+                .Signup_Register().SignUp_Data();
+
 //        P03_SignUpPage K = new P03_SignUpPage(driver);
 //        String ActualAddress = K.get_address();
         P04_AccountCreatedPage o = new P04_AccountCreatedPage(driver);
@@ -85,12 +76,8 @@ public class TC02_Sign_UP {
         new P05_ProductsPage(driver).AddToCart_1_Button().Continue_Shopping_button()
                 .AddToCart_2_Button().View_Cart_Button().ProccedToCheckout_Button();
         new  P07_ViewCartPage(driver).RegisterOrLogin_Button();
-        new P02_LoginPage(driver).name_signup("AbdallahSayed")
-                .Email_signup(DataUtils.getJsonData("Data" , "SignUPMail")).SignupButton();
-        new P03_SignUpPage(driver).password("Abdallah@123")
-                .firstname("Abdallah").lastname("Sayed")
-                .address("AinShams").country_list("Canada").state("aaa")
-                .city("Ca").zipcode("2421").mobile_number("01148200717").create_account_button();
+        new P01_HomePage(driver).Signup_login_button()
+                .Signup_Register().SignUp_Data();
         P04_AccountCreatedPage s = new P04_AccountCreatedPage(driver);
         Assert.assertEquals(s.accountCreated_messege(),"ACCOUNT CREATED!");
         new P04_AccountCreatedPage(driver).continue_button();

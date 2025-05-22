@@ -2,6 +2,14 @@
   "ValidLoginEmail" : "Abdallah@coc.net",
   "ImValidLoginEmail" : "Abdawwlla@coc.net",
   "Password" : "Abdallah@123",
-  "SignUPMail" : "Abdallahh1@coc.net"
-
+  "SignUPMail" : "Abdallahh21@coc.net",
+  "Name_Signup" : "Abdallah Sayed",
+  "First Name" : "Abdallah",
+  "Last Name" : "Sayed",
+  "Address": "Ain Shams",
+  "Country": "Canada",
+  "State" : "AAA",
+  "City" : "Cairo",
+  "ZipCode" : "1223",
+  "Number" : "01148200717"
 }

@@ -46,8 +46,8 @@ public class P01_HomePage {
         Utilitiy.CLICKONELEMENTS(driver,Account_Delete_button);
         return this;
     }
-    public P01_HomePage Signup_login_button (){
+    public P02_LoginPage Signup_login_button (){
         Utilitiy.CLICKONELEMENTS(driver,Signup_login_button);
-        return this;
+        return new P02_LoginPage(driver);
     }
 }
